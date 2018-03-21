@@ -22,4 +22,3 @@ result2list=(list(result2))
 for i in result2list:
     for n in (i[3]):
         print(n[1])
-
