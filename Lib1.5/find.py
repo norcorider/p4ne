@@ -1,4 +1,3 @@
-# from os import *
 import glob
 import re
 
@@ -15,4 +14,5 @@ sortesset = sorted(ipset)
 
 for ipline in sortesset:
     ipline = re.findall(r'[0-9]+(?:\.[0-9]+){3}', ipline)
-    print(ipline)
+    if len(ipline) >= 2:
+        print(ipline)
