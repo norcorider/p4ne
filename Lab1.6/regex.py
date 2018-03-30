@@ -22,8 +22,9 @@ def dyc(ip):
     return {}
 
 
+#ipset = set()
 
-ipset = set()
+
 list = (glob.glob("C:\\Users\dy.samsonov\seafile\Seafile\p4ne_training\config_files\*.txt"))
 for txtdoc in list:
     with open(txtdoc) as f:
